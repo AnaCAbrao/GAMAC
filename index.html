@@ -156,6 +156,11 @@
     visibility: visible;
   }
 
+  .palavra {
+    text-decoration: none;
+    color: #303030;
+  }
+
   @keyframes slide {
     0% {
       opacity: 0;
@@ -253,21 +258,21 @@
 
 <!-- Produtos -->
   <div id="produtos" class="container-fluid text-center bg-grey">
-    <h2>PRODUTOS</h2><br>
-    <h4>desenvolvidos para descomplicar suas dificuldades</h4>
+    <h2>PRODUTOS</h2>
+    <h3>Desenvolvidos para descomplicar suas dificuldades</h3><br>
       <div class="row text-center slideanim">
         <div class="col-sm-6">
             <div class="thumbnail">
               <img src="img/logogerencia.jpg" alt="gerencia" width="400" height="300">
-              <p><strong>Gerencia</strong></p>
-              <p>para você gerenciar o seu negócio!</p>
+              <p><a class="palavra" href="https://www.canva.com/design/DAFaMfnjV6A/Aqa740L2tRAvye7whsCl4Q/view"><button class="btn btn-lg"><strong>Gerencia</strong></button></a></p>
+              <h4>Clique no botão a cima e veja a apresentação do nosso projeto</h4>
             </div>
         </div>
         <div class="col-sm-6">
             <div class="thumbnail">
               <img src="img/logo_cultiveplantio.jpg" alt="gerencia" width="400" height="300">
-              <p><strong>Cultive Plantio</strong></p>
-              <p>sustentabilidade em seu ambiente</p>
+              <p><a class="palavra" href="https://www.canva.com/design/DAFcEaIwXJY/B7SH4qRVX4upyAulpM_HAA/view"><button class="btn btn-lg"><strong>Cultive Plantio</strong></button></a></p>
+              <h4>Clique no botão a cima e veja a apresentação do nosso projeto</h4>
             </div>
         </div>  
         <!-- <div class="col-sm-4">
@@ -286,7 +291,7 @@
   <div id="videos" class="container-fluid ">
     <div class="text-center">
       <h2>VIDEOS DOS NOSSOS PRODUTOS</h2>
-      <h4>venha prestigiar nosso Pitch</h4>
+      <h4>Venha prestigiar nosso Pitch</h4>
     </div>
     <div class="row slideanim">
         <div class="col-sm-6 col-xs-12">
@@ -336,7 +341,7 @@
 
 <!-- Container (Contact Section) -->
 <div id="contato" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
+  <h2 class="text-center">CONTAto</h2>
   <div class="row">
     <div class="col-sm-5">
       <p>Fale conosco e diga o que acha de nossos produtos</p>
@@ -347,16 +352,16 @@
     <div class="col-sm-7 slideanim">
       <div class="row">
         <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          <input class="form-control" id="name" name="name" placeholder="Nome" type="text" required>
         </div>
         <div class="col-sm-6 form-group">
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Mensagem" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+          <button class="btn btn-default pull-right" type="submit">Enviar</button>
         </div>
       </div>
     </div>
