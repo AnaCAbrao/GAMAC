@@ -342,7 +342,7 @@
           </div>
           <div class="panel-footer">
             <h4>Ver o pitch</h4>
-            <iframe width="1280" height="715" src="https://www.youtube.com/embed/zEz5icMgS5M" title="PITCH - GERENCIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><button class="btn btn-lg">clique</button></a>
+            <iframe width="1280" height="715" src="https://www.youtube.com/embed/zEz5icMgS5M" title="PITCH - GERENCIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><button class="btn btn-lg">clique</button>
           </div>
         </div>
       </div>
@@ -387,7 +387,7 @@
         <div class="col-sm-5">
           <p>Fale conosco e diga o que acha de nossos produtos</p>
           <p><span class="glyphicon glyphicon-map-marker"></span>Taubaté-SP</p>
-          <p><span class="glyphicon glyphicon-phone"></span>+00 1515151515</p>
+          <p><span class="glyphicon glyphicon-phone"></span>+55 12991752253</p>
           <p><span class="glyphicon glyphicon-envelope"></span> gamactech@gmail.com</p>
         </div>
         <div class="col-sm-7 slideanim">
