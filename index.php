@@ -342,7 +342,7 @@
           </div>
           <div class="panel-footer">
             <h4>Ver o pitch</h4>
-            <a href="https://youtu.be/zEz5icMgS5M"><button class="btn btn-lg">clique</button></a>
+             <iframe width="1280" height="715" src="https://www.youtube.com/embed/zEz5icMgS5M" title="PITCH - GERENCIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"><button class="btn btn-lg">clique</button>
           </div>
         </div>
       </div>
