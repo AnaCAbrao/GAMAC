@@ -116,7 +116,7 @@
     }
 
     .panel-heading {
-      color: #ccc1fa !important;
+      color: #6C21AC !important;
       background-color: white;
       padding: 25px;
       border-bottom: 1px solid transparent;
@@ -196,6 +196,7 @@
       color: #303030;
     }
 
+
     @keyframes slide {
       0% {
         opacity: 0;
@@ -254,7 +255,7 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#startup">START</a></li>
+          <li><a href="#startup">STARTUP</a></li>
           <li><a href="#produtos">PRODUTOS</a></li>
           <li><a href="#videos">VÍDEOS</a></li>
           <li><a href="#contato">CONTATO</a></li>
@@ -342,7 +343,7 @@
           </div>
           <div class="panel-footer">
             <h4>Ver o pitch</h4>
-            <a href="https://youtu.be/zEz5icMgS5M"><button class="btn btn-lg">clique</button></a>
+            <iframe class="video" src="img/picthgamac_projeto final.mp4"></iframe>
           </div>
         </div>
       </div>
@@ -356,7 +357,7 @@
           </div>
           <div class="panel-footer">
             <h4>Ver o pitch</h4>
-            <a href="https://youtu.be/fJPnOm-3eNk"><button class="btn btn-lg">clique</button></a>
+            <iframe class="video" src="img/projetoclasse_picth.mp4"></iframe>
           </div>
         </div>
       </div>
@@ -393,13 +394,14 @@
         <div class="col-sm-7 slideanim">
           <div class="row">
             <div class="col-sm-6 form-group">
-              <input class="form-control" id="name" name="nome" placeholder="Nome" type="text" required>
+              <input class="form-control" id="nome" name="nome" placeholder="Nome" type="text" required>
             </div>
             <div class="col-sm-6 form-group">
               <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
             </div>
           </div>
-          <textarea class="form-control" id="comments" name="comentario" placeholder="Mensagem" rows="5"></textarea><br>
+          <textarea class="form-control" id="comentario" name="comentario" placeholder="Mensagem"
+            rows="5"></textarea><br>
           <div class="row">
             <div class="col-sm-12 form-group">
               <button class="btn btn-default pull-right" type="submit">Enviar</button>
@@ -409,6 +411,18 @@
       </div>
     </form>
   </div>
+
+  <?php 
+  
+    include_once ('conexao.php');
+  
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $comentario = $_POST['comentario'];
+  
+    $result = mysqli_query($conexao, "INSERT INTO contatos(nome, email, comentario) VALUES ('$nome', '$email', '$comentario')");
+    
+  ?>
 
 
   <!-- Image of location/map -->
