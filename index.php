@@ -342,7 +342,7 @@
           </div>
           <div class="panel-footer">
             <h4>Ver o pitch</h4>
-             <iframe width="1280" height="715" src="https://www.youtube.com/embed/zEz5icMgS5M" title="PITCH - GERENCIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"><button class="btn btn-lg">clique</button>
+            <iframe width="893" height="501" src="https://www.youtube.com/embed/HV2LSvH7k0I" title="Pitch GAMAC TECH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><button class="btn btn-lg">clique</button>
           </div>
         </div>
       </div>
