@@ -196,6 +196,12 @@
       color: #303030;
     }
 
+    .video--desktop {
+      display: black;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
 
     @keyframes slide {
       0% {
@@ -327,7 +333,7 @@
   </div>
 
 
-  <div id="videos" class="container-fluid ">
+  <div id="videos" class="container-fluid">
     <div class="text-center">
       <h2>VIDEOS DOS NOSSOS PRODUTOS</h2>
       <h4>Venha prestigiar nosso Pitch</h4>
@@ -339,12 +345,14 @@
             <h1>Gerencia</h1>
           </div>
           <div class="panel-body">
-            <p>Perfeito para gerenciar o seu ambiente de trabalho o seu espaço de trabalho</p>
+            <p>Perfeito para gerenciar o seu ambiente de trabalho o seu espaço de trabalho</p >
           </div>
-          <div class="panel-footer">
-            <h4>Ver o pitch</h4>
-            <iframe class="video" src="img/picthgamac_projeto final.mp4"></iframe>
-          </div>
+          <section>
+            <div class="panel-footer">
+              <h4>Ver o pitch</h4>
+              <video class="video--desktop" src="img/projetoclasse_picth.mp4"controls poster="img/poster_pc.png"  tipe="video/mp4">
+            </div> 
+          </section>
         </div>
       </div>
       <div class="col-sm-6 col-xs-12">
@@ -355,9 +363,9 @@
           <div class="panel-body">
             <p>Feito para empresas e para você que gostaria de aumentar sua área verde!</p>
           </div>
-          <div class="panel-footer">
+          <div id="teste" class="panel-footer">
             <h4>Ver o pitch</h4>
-            <iframe class="video" src="img/projetoclasse_picth.mp4"></iframe>
+            <video class="video--desktop" src="img/picthgamac_projeto final.mp4" controls poster="img/poster_pf.png  tipe="video/mp4">
           </div>
         </div>
       </div>
